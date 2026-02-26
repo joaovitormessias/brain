@@ -1,4 +1,15 @@
 
+___
+Esta nota define “arquitetura de sistemas” como a organizacao de componentes, responsabilidades e dependencias para atender requisitos sob restricoes (tempo, custo, confiabilidade, seguranca e evolucao). O objetivo e ter uma explicacao simples que sirva de base para outros topicos do modulo, como ADRs, padroes e processos de decisao. A arquitetura aparece tanto nas escolhas tecnicas quanto nos limites e invariantes impostos para manter o sistema coerente.
+___
 
-A arquitetura de sistemas entra como uma necessidade de controlar projetos complexos de forma mais organizada e escalavel, trazendo consigo diversas formas/metodologias. Essa tecnica surgiu em meados do final do ano de 2012 por um cara chamado 'Uncle Bob'. Hoje a arquitetura de sistemas visa focar naquilo que realmente e essencial para fazer com que o projeto surja, isso se aplica na forma de usar agentes que sigam essas regras para que criem os softwares desejados. 
+Links: [[Arquitetura de Software]]; [[Index]]; [[ADR (Resolucao Alternativa de Disputas)]];
 
+# Conteudo
+
+Arquitetura de sistemas e:
+- Estrutura: como partes se conectam (interfaces, contratos, dados, deployment).
+- Decisao: trade-offs documentados (por que isso e nao aquilo).
+- Evolucao: como mudar com seguranca (testes, observabilidade, migrações).
+
+Use esta nota como referencia para manter coerencia ao escrever ADRs e ao avaliar novas dependencias.

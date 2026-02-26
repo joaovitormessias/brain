@@ -8,83 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6f71d7205ddfe951",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Harmeness Engineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Harmeness Engineering"
-            }
-          },
-          {
-            "id": "8099c6f9b5f76f92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Harmeness Engineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Harmeness Engineering"
-            }
-          },
-          {
-            "id": "b7f69e1599c00189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Como funciona o pre processamento em C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Como funciona o pre processamento em C++"
-            }
-          },
-          {
-            "id": "4dd1f099f5984a88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compilacao em C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Compilacao em C++"
-            }
-          },
-          {
-            "id": "875d6f94374b8d09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compilacao em C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Compilacao em C++"
-            }
-          },
-          {
             "id": "e8406754a1f1fd88",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "C++/O que sao os linkers em C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "O que sao os linkers em C++"
             }
           },
           {
@@ -119,14 +53,17 @@
             "id": "901fc33005315fbb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aplicacao de Teoria do Jogo com IA"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/O que sao os linkers em C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para O que sao os linkers em C++"
             }
           },
           {
@@ -284,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,36 +237,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "901fc33005315fbb",
+  "active": "e8406754a1f1fd88",
   "lastOpenFiles": [
-    "Arquitetura de Software/O que e arquitetura de sistemas.md",
-    "Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md",
-    "C++/Por que a programacao de baixo nivel existe?.md",
-    "C++/O que sao os linkers em C++.md",
-    "C++/Compilacao em C++.md",
-    "C++/Como funciona o pre processamento em C++.md",
-    "[[Como.md",
+    "Sistema de Conhecimento/Commit automatico com verificacao (Git).md",
     "LLMs/Harmeness Engineering.md",
-    "O.md",
-    "[[.md",
-    "[[O.md",
-    "Index.md",
+    "Sistema de Conhecimento/Resolver conflitos de Git (merge e rebase).md",
+    "_Artefatos/git-safe-commit.sh",
+    "LLMs/LLMs.md",
+    "Sistema de Conhecimento/Pipeline de Conhecimento (Captura, Sintese e Reuso).md",
+    "Sistema de Conhecimento/Context Engineering para o Vault.md",
+    "Sistema de Conhecimento/Sistema de Conhecimento.md",
     "AGENTS.md",
-    "Modulo.md",
-    "Topico I.md",
+    "Index.md",
+    "Sistema de Conhecimento/Artefatos de Busca e Economia de Tokens.md",
+    "C++/O que sao os linkers em C++.md",
+    "Arquitetura de Software/Arquitetura de Software.md",
+    "Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md",
+    "_Artefatos/memory/failures.jsonl",
+    "_Artefatos/memory/experiences.jsonl",
+    "_Artefatos/memory/decisions.jsonl",
+    "_Artefatos/crosslinks.jsonl",
+    "_Artefatos/PLAYBOOK.md",
+    "_Artefatos/catalogo.jsonl",
+    "_Artefatos/router.yaml",
+    "_Artefatos/memory",
+    "_Artefatos",
+    "Sistema de Conhecimento",
     "Conhecimento Geral/Teoria do Jogo.md",
-    "Conhecimento Geral",
-    "Arquitetura de Software",
-    "LLMs",
-    "C++",
-    "crie um link.md",
-    "Bem-vindo.md",
-    "Pasta contendo outros/Arquivo da outra pasta.md",
-    "Pasta contendo outros/Pasta dentro da pasta/Arquido dentro da outra pasta.md",
-    "Pasta contendo outros/Pasta dentro da pasta",
-    "Teste.md",
-    "Pasta teste/Arquivo da pasta.md",
-    "Pasta contendo outros",
-    "Pasta teste"
+    "Arquitetura de Software/O que e arquitetura de sistemas.md",
+    "C++/C++.md",
+    "C++/Por que a programacao de baixo nivel existe?.md",
+    "C++/Como funciona o pre processamento em C++.md",
+    "C++/Compilacao em C++.md",
+    "Topico II.md",
+    "Conhecimento Geral/Conhecimento Geral.md",
+    "Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md",
+    "[[Como.md",
+    "O.md",
+    "[[.md"
   ]
 }

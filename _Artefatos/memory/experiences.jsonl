@@ -1,0 +1,2 @@
+{"_schema":"vault_experiences","_version":"1.0","_description":"Registro append-only de aprendizados operacionais do vault."}
+{"date":"2026-02-26","id":"EXP-001","experience":"Separar contexto em camadas melhorou decisao de qual arquivo abrir primeiro.","impact":"Menos leitura redundante e respostas mais consistentes.","next_step":"Atualizar catalogo e crosslinks sempre que um novo topico/modulo for criado.","related_files":["_Artefatos/catalogo.jsonl","_Artefatos/crosslinks.jsonl"]}

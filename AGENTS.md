@@ -13,6 +13,7 @@ Cada arquivo deve possuir uma estrutura base:
 
 Regras:
 - Sempre consulte [[Index]] quando nao souber qual modulo se trata;
+- Para tarefas de busca, consulte primeiro `_Artefatos/router.yaml`, `_Artefatos/catalogo.jsonl` e `_Artefatos/crosslinks.jsonl` antes de abrir notas longas;
 - Quando nao existir nenhum assunto relacionado ao que estamos abortando ou discutindo, ele vira um modulo, primeiro cria-se uma pasta sobre aquele tema, em seguida o modulo que o arquivo que aborta o assunto em questao.
 - Os modulos devem referenciar os topicos relacionados em questao, ou seja, se houver a insercao de um assunto novo e ele tem relacao com um modulo (assunto que antes era isolado mas virou um modulo) esse modulo deve referenciar esse topico, trazendo fazendo a relacao entre o assunto do modulo e aquele topico, referenciando ele.
 - O topico e o aprofundamento do que foi abordado no modulo, sempre seguindo.

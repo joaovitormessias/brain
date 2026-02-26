@@ -1,0 +1,56 @@
+version: 1.0
+updated_at: "2026-02-26"
+objective: "Rotear tarefas para o menor conjunto de notas com alta relevancia."
+
+load_levels:
+  level_1:
+    purpose: "Classificar tarefa e escolher modulo"
+    files:
+      - "Index.md"
+      - "_Artefatos/catalogo.jsonl"
+      - "_Artefatos/crosslinks.jsonl"
+  level_2:
+    purpose: "Aplicar regras do modulo"
+    pattern: "<Modulo>/<Modulo>.md"
+  level_3:
+    purpose: "Ler apenas topicos necessarios"
+    pattern: "<Modulo>/*.md"
+
+routes:
+  classificar_assunto_novo:
+    open_first:
+      - "Index.md"
+      - "_Artefatos/catalogo.jsonl"
+    decision:
+      - "Se houver modulo com similaridade alta no titulo/descricao, criar topico."
+      - "Se nao houver modulo similar, criar pasta e nota-modulo nova."
+    max_full_notes: 4
+
+  responder_pergunta:
+    open_first:
+      - "_Artefatos/catalogo.jsonl"
+      - "_Artefatos/crosslinks.jsonl"
+    then:
+      - "Abrir no maximo 2 topicos mais proximos"
+      - "Abrir o modulo apenas se faltar contexto"
+    max_full_notes: 3
+
+  criar_ou_revisar_topico:
+    open_first:
+      - "Index.md"
+      - "<Modulo>/<Modulo>.md"
+      - "Topico I.md"
+    then:
+      - "Preencher descricao 50-100 palavras"
+      - "Adicionar links wiki relevantes"
+      - "Atualizar modulo e Index se necessario"
+    max_full_notes: 5
+
+  manutencao_do_vault:
+    open_first:
+      - "_Artefatos/PLAYBOOK.md"
+      - "_Artefatos/memory/decisions.jsonl"
+    then:
+      - "Atualizar catalogo e crosslinks"
+      - "Registrar decisao arquitetural"
+    max_full_notes: 3

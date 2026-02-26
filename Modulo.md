@@ -1,15 +1,11 @@
----
-
----
-
 ___
-Este e um exemplo de um modulo, aqui vai uma breve descricao sobre o modulo
+Este arquivo e um template/exemplo de como estruturar uma nota de modulo. Um modulo e a base de um assunto: ele descreve o escopo geral e lista os topicos relacionados (aprofundamentos). Use este modelo quando um assunto novo nao se encaixar em nenhum modulo existente no `[[Index]]`. A descricao deve ter entre 50 e 100 palavras, e os links devem apontar para topicos reais (ou para topicos que serao criados em seguida).
 ___
 
-Links: [[Topico I]]; [[Topico II]];
+Links: [[Index]]; [[Topico I]]; [[Topico II]];
 
-# Conteudo [pode ser outro nome]
+# Conteudo
 
-O modulo ele surge quando um assunto nao se encaixa ou nao tem ligacao com qualquer outro assunto, quando posteriormente surge algo relacionado a esse que se tornou um novo modulo ele vira um [[Topico I]]. Os topicos sao abordados brevemente dentro do modulo, sendo muitas vezes apenas mencionado dentro dele, apenas para referencia-los.
+O modulo surge quando um assunto nao se encaixa ou nao tem ligacao com qualquer outro assunto. Quando posteriormente surge algo relacionado a esse que se tornou um novo modulo, ele vira um topico do modulo (ex.: [[Topico I]]). Os topicos sao abordados brevemente dentro do modulo, muitas vezes apenas mencionados para referencia.
 
-Baseado nisso ao longo do que for sendo desenvolvido quando um topico passa a ter varios outros assuntos (10 links) relacionados aquele mesmo topico ele tambem passa a ser um modulo novo, mas nao deixando de ser referenciado. 
+Se um topico passar a ter varios outros assuntos relacionados (ex.: ~10 links), ele pode virar um modulo novo, mas sem deixar de ser referenciado a partir de onde surgiu.

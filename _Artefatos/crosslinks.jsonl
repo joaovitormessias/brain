@@ -1,0 +1,27 @@
+{"_schema":"brain_crosslinks","_version":"1.0","_description":"Relacoes entre notas para expansao de contexto em ate dois saltos.","updated_at":"2026-02-26"}
+{"source":"Index.md","target":"C++/C++.md","relation":"modulo"}
+{"source":"Index.md","target":"Arquitetura de Software/Arquitetura de Software.md","relation":"modulo"}
+{"source":"Index.md","target":"Conhecimento Geral/Conhecimento Geral.md","relation":"modulo"}
+{"source":"Index.md","target":"LLMs/LLMs.md","relation":"modulo"}
+{"source":"Index.md","target":"Sistema de Conhecimento/Sistema de Conhecimento.md","relation":"modulo"}
+{"source":"LLMs/LLMs.md","target":"LLMs/Harmeness Engineering.md","relation":"topico"}
+{"source":"LLMs/LLMs.md","target":"Sistema de Conhecimento/Context Engineering para o Vault.md","relation":"relacionado"}
+{"source":"LLMs/LLMs.md","target":"Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md","relation":"relacionado"}
+{"source":"Arquitetura de Software/Arquitetura de Software.md","target":"Arquitetura de Software/O que e arquitetura de sistemas.md","relation":"topico"}
+{"source":"Arquitetura de Software/Arquitetura de Software.md","target":"Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md","relation":"topico"}
+{"source":"Arquitetura de Software/Arquitetura de Software.md","target":"Sistema de Conhecimento/Context Engineering para o Vault.md","relation":"relacionado"}
+{"source":"C++/C++.md","target":"C++/Compilacao em C++.md","relation":"topico"}
+{"source":"C++/C++.md","target":"C++/Como funciona o pre processamento em C++.md","relation":"topico"}
+{"source":"C++/C++.md","target":"C++/O que sao os linkers em C++.md","relation":"topico"}
+{"source":"C++/C++.md","target":"C++/Por que a programacao de baixo nivel existe?.md","relation":"topico"}
+{"source":"Conhecimento Geral/Conhecimento Geral.md","target":"Conhecimento Geral/Teoria do Jogo.md","relation":"topico"}
+{"source":"Conhecimento Geral/Conhecimento Geral.md","target":"Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md","relation":"topico"}
+{"source":"Conhecimento Geral/Teoria do Jogo.md","target":"Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md","relation":"aprofundamento"}
+{"source":"Sistema de Conhecimento/Sistema de Conhecimento.md","target":"Sistema de Conhecimento/Context Engineering para o Vault.md","relation":"topico"}
+{"source":"Sistema de Conhecimento/Sistema de Conhecimento.md","target":"Sistema de Conhecimento/Pipeline de Conhecimento (Captura, Sintese e Reuso).md","relation":"topico"}
+{"source":"Sistema de Conhecimento/Sistema de Conhecimento.md","target":"Sistema de Conhecimento/Artefatos de Busca e Economia de Tokens.md","relation":"topico"}
+{"source":"Sistema de Conhecimento/Sistema de Conhecimento.md","target":"Sistema de Conhecimento/Commit automatico com verificacao (Git).md","relation":"topico"}
+{"source":"Sistema de Conhecimento/Sistema de Conhecimento.md","target":"Sistema de Conhecimento/Resolver conflitos de Git (merge e rebase).md","relation":"topico"}
+{"source":"Sistema de Conhecimento/Commit automatico com verificacao (Git).md","target":"_Artefatos/git-safe-commit.sh","relation":"ferramenta"}
+{"source":"Sistema de Conhecimento/Artefatos de Busca e Economia de Tokens.md","target":"_Artefatos/PLAYBOOK.md","relation":"operacao"}
+{"source":"_Artefatos/PLAYBOOK.md","target":"Sistema de Conhecimento/Commit automatico com verificacao (Git).md","relation":"operacao"}

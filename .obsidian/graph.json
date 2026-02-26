@@ -8,17 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Pasta contendo outros/Pasta dentro da pasta\"  ",
+      "query": "path:C++  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:\"Pasta contendo outros\"  ",
+      "query": "path:\"Arquitetura de Software\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:LLMs  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Sistema de Conhecimento\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Conhecimento Geral\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:_Artefatos  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
@@ -32,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7746714226826474,
+  "scale": 0.7619780988052671,
   "close": true
 }

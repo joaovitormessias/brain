@@ -1,0 +1,2 @@
+{"_schema":"vault_failures","_version":"1.0","_description":"Registro append-only de falhas e prevencao."}
+{"date":"2026-02-26","id":"FAL-001","status":"aberta","failure":"Busca abria muitas notas longas sem roteamento previo.","root_cause":"Ausencia de catalogo compacto e grafo de links para triagem.","prevention":"Aplicar fluxo do PLAYBOOK e consultar router/catalogo antes de expandir contexto.","related_files":["_Artefatos/PLAYBOOK.md","_Artefatos/router.yaml"]}
