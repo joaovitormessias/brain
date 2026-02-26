@@ -1,0 +1,22 @@
+
+___
+Uma das ferramentas de arquitetura de sistemas
+___
+
+Links: [[Index]]; [[O que e arquitetura de sistemas]];
+
+A ADR e uma pratica usada em arquitetura de sistemas que visa ajudar as equipes a tomarem decisoes mais arquitetonicas baseado em documentos frequentemente armazenados em repositorios de codigo fonte junto com os artefatos que os descrevem. Ela tem uma estrutura que tras consigo o poder de deixar claro, do que se trata aquela acao, quem propos aquela acao, quais sao os objetivos de determinada atividade, quais suas consequencias. 
+
+Estrutura ADR:
+
+|        nome         | descricao                                                                                                                                                                                                                                                                                                                                                                    |
+| :-----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|       titulo        | que inclui um identificador único e a própria decisão (por exemplo, “ADR001 - Usar AKS para Pods do Kubernetes”)                                                                                                                                                                                                                                                             |
+|       status        | geralmente “Rascunho”, “Proposto”, “Adotado”, “Substituído” e “Retirado”                                                                                                                                                                                                                                                                                                     |
+|       decisao       | A decisão que foi tomada em poucas frases (frequentemente em negrito ou itálico para se destacar).                                                                                                                                                                                                                                                                           |
+|      contexto       | as forças e as circunstâncias contextuais atuais que tornaram necessária esta decisão.                                                                                                                                                                                                                                                                                       |
+| opções consideradas | <br>Cada opção considerada é descrita brevemente, com seus prós e contras. (Normalmente, a opção proposta/adotada aparece primeiro nesta lista.)                                                                                                                                                                                                                             |
+|    consequências    | As ramificações dessa decisão, tanto positivas quanto negativas.                                                                                                                                                                                                                                                                                                             |
+|      conselho       | Isto reflete os resultados brutos do Processo de Aconselhamento. É aqui que todos os conselhos dados são registrados. Isso deve incluir o nome de quem deu o conselho e a data em que o conselho foi dado. Frequentemente, isso pode assumir a forma de comentários e, se estes forem fornecidos diretamente por quem deu o conselho, o registro dos metadados é automático. |
+
+Trazendo para uma realidade mais factual esse tipo de estrutura pode ir em arquivos que representem o uso de Agentes de IA para que esse tipo de metodologia possa ser aplicado. Onde podemos direcionar o agente no que consiste aquela atividade em especifico que ele deve realizar

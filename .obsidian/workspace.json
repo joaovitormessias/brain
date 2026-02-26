@@ -1,0 +1,322 @@
+{
+  "main": {
+    "id": "7ff8ec6db248b2a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b06506e6df35be5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f71d7205ddfe951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harmeness Engineering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Harmeness Engineering"
+            }
+          },
+          {
+            "id": "8099c6f9b5f76f92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Harmeness Engineering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Harmeness Engineering"
+            }
+          },
+          {
+            "id": "b7f69e1599c00189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Como funciona o pre processamento em C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Como funciona o pre processamento em C++"
+            }
+          },
+          {
+            "id": "4dd1f099f5984a88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compilacao em C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Compilacao em C++"
+            }
+          },
+          {
+            "id": "875d6f94374b8d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compilacao em C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Compilacao em C++"
+            }
+          },
+          {
+            "id": "e8406754a1f1fd88",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "6a14a3b3e94aee40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ADR (Resolucao Alternativa de Disputas)"
+            }
+          },
+          {
+            "id": "dd6d52ab59ab61d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conhecimento Geral/Teoria do Jogo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teoria do Jogo"
+            }
+          },
+          {
+            "id": "901fc33005315fbb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "865dfebddf251771",
+    "type": "split",
+    "children": [
+      {
+        "id": "c37c61c165a89047",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c459b26bf03ab2f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "1a183531ba40c56d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "737835845b7cf7c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d73a0cf60a7047d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6fc4bd836d59347",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5020d2e53d841ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "fb5e15e56587698a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bem-vindo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Bem-vindo"
+            }
+          },
+          {
+            "id": "1df7746c4432cbd2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8781a97014bb7490",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "5fd9aeec05b24249",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bem-vindo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Bem-vindo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "901fc33005315fbb",
+  "lastOpenFiles": [
+    "Arquitetura de Software/O que e arquitetura de sistemas.md",
+    "Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md",
+    "C++/Por que a programacao de baixo nivel existe?.md",
+    "C++/O que sao os linkers em C++.md",
+    "C++/Compilacao em C++.md",
+    "C++/Como funciona o pre processamento em C++.md",
+    "[[Como.md",
+    "LLMs/Harmeness Engineering.md",
+    "O.md",
+    "[[.md",
+    "[[O.md",
+    "Index.md",
+    "AGENTS.md",
+    "Modulo.md",
+    "Topico I.md",
+    "Conhecimento Geral/Teoria do Jogo.md",
+    "Conhecimento Geral",
+    "Arquitetura de Software",
+    "LLMs",
+    "C++",
+    "crie um link.md",
+    "Bem-vindo.md",
+    "Pasta contendo outros/Arquivo da outra pasta.md",
+    "Pasta contendo outros/Pasta dentro da pasta/Arquido dentro da outra pasta.md",
+    "Pasta contendo outros/Pasta dentro da pasta",
+    "Teste.md",
+    "Pasta teste/Arquivo da pasta.md",
+    "Pasta contendo outros",
+    "Pasta teste"
+  ]
+}
