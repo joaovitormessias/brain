@@ -23,8 +23,10 @@ Se voce nao passar `-m`, o script gera uma mensagem seguindo boas praticas:
   - `bash _Artefatos/git-safe-commit.sh`
 - Commit com mensagem:
   - `bash _Artefatos/git-safe-commit.sh -m "Atualiza index e modulos"`
-- Commit + push:
-  - `bash _Artefatos/git-safe-commit.sh --push`
+- Commit + push (por padrao, ele faz push se houver upstream):
+  - `bash _Artefatos/git-safe-commit.sh`
+- Commit sem push:
+  - `bash _Artefatos/git-safe-commit.sh --no-push`
 - Apenas checar o que faria:
   - `bash _Artefatos/git-safe-commit.sh --dry-run`
 

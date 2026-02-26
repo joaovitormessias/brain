@@ -15,7 +15,8 @@ Opcoes:
   --no-add              Nao roda "git add -A" (comita apenas o que ja estiver staged)
   --no-fetch            Nao roda "git fetch --prune"
   --no-rebase           Nao tenta sincronizar com upstream via rebase
-  --push                Faz push no final (se houver upstream)
+  --push                Faz push no final (padrao: ligado se houver upstream)
+  --no-push             Nao faz push no final
   --amend               Faz amend do commit atual (mantem staged)
   --dry-run             Mostra o que faria, sem alterar nada
   -h, --help            Ajuda
@@ -245,7 +246,7 @@ MESSAGE=""
 DO_ADD=1
 DO_FETCH=1
 DO_REBASE=1
-DO_PUSH=0
+DO_PUSH=1
 DO_AMEND=0
 DRY_RUN=0
 
@@ -269,6 +270,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --push)
       DO_PUSH=1
+      shift
+      ;;
+    --no-push)
+      DO_PUSH=0
       shift
       ;;
     --amend)
@@ -401,14 +406,18 @@ else
   fi
 fi
 
-if [[ -n "$UPSTREAM" && "$DO_PUSH" -eq 1 ]]; then
-  if [[ "$DRY_RUN" -eq 1 ]]; then
-    say "[dry-run] git push"
+if [[ "$DO_PUSH" -eq 1 ]]; then
+  if [[ -z "$UPSTREAM" ]]; then
+    say "Sem upstream configurado; pulando push. (Dica: git push -u origin HEAD)"
   else
-    if ! git push; then
-      err "Falha no push (possivel non-fast-forward ou permissao)."
-      err "Report: $(write_report "$ROOT")"
-      exit 5
+    if [[ "$DRY_RUN" -eq 1 ]]; then
+      say "[dry-run] git push"
+    else
+      if ! git push; then
+        err "Falha no push (possivel non-fast-forward ou permissao)."
+        err "Report: $(write_report "$ROOT")"
+        exit 5
+      fi
     fi
   fi
 fi
