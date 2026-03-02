@@ -7,7 +7,7 @@ Cada arquivo deve possuir uma estrutura base:
 
 - Nome do arquivo: titulo relacionado ao assunto;
 - Descricao: uma breve descricao em poucas palavras sobre o que se trata aquele arquivo em questao variando de 50-100 palavras;
-- Links: esses links sao representados por `[[nome do topico]]`. Caso nao haja nenhum topico relacionado aquele outro, ele vira um modulo novo.
+- Links: esses links sao representados por wikilinks no formato `\[\[Titulo da Nota\]\]`. Caso nao haja nenhum topico relacionado aquele outro, ele vira um modulo novo.
 - Conteudo: aqui vai todo conteudo sobre aquele conteudo;
 
 

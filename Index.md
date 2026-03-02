@@ -2,7 +2,7 @@ ___
 Este Index e o ponto de entrada do vault: ele lista os modulos (assuntos-base), define quando um assunto novo vira modulo ou topico e conecta a camada operacional de busca. O vault agora usa roteamento progressivo: primeiro classificar tarefa com artefatos leves, depois abrir modulo e so entao topicos especificos. Isso melhora legibilidade, reduz consumo de tokens e ajuda a manter crescimento consistente para conteudos atuais e futuros.
 ___
 
-Links: [[C++]]; [[Arquitetura de Software]]; [[Conhecimento Geral]]; [[LLMs]]; [[Sistema de Conhecimento]]; [[_Artefatos/PLAYBOOK]];
+Links: [[C++]]; [[Arquitetura de Software]]; [[Conhecimento Geral]]; [[LLMs]]; [[Sistema de Conhecimento]]; [[PLAYBOOK]];
 
 # Conteudo
 

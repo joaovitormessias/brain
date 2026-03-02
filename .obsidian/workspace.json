@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/O que sao os linkers em C++.md",
+                "file": "Arquitetura de Software/ADR (Resolucao Alternativa de Disputas).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O que sao os linkers em C++"
+              "title": "ADR (Resolucao Alternativa de Disputas)"
             }
           },
           {
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/O que sao os linkers em C++.md",
+                "file": "Arquitetura de Software/Arquitetura de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para O que sao os linkers em C++"
+              "title": "Links inversos para Arquitetura de Software"
             }
           },
           {
@@ -238,6 +238,9 @@
   },
   "active": "e8406754a1f1fd88",
   "lastOpenFiles": [
+    "Arquitetura de Software/O que e arquitetura de sistemas.md",
+    "Arquitetura de Software/Arquitetura de Software.md",
+    "C++/O que sao os linkers em C++.md",
     "Sistema de Conhecimento/Commit automatico com verificacao (Git).md",
     "LLMs/Harmeness Engineering.md",
     "Sistema de Conhecimento/Resolver conflitos de Git (merge e rebase).md",
@@ -249,8 +252,6 @@
     "AGENTS.md",
     "Index.md",
     "Sistema de Conhecimento/Artefatos de Busca e Economia de Tokens.md",
-    "C++/O que sao os linkers em C++.md",
-    "Arquitetura de Software/Arquitetura de Software.md",
     "Conhecimento Geral/Aplicacao de Teoria do Jogo com IA.md",
     "_Artefatos/memory/failures.jsonl",
     "_Artefatos/memory/experiences.jsonl",
@@ -263,7 +264,6 @@
     "_Artefatos",
     "Sistema de Conhecimento",
     "Conhecimento Geral/Teoria do Jogo.md",
-    "Arquitetura de Software/O que e arquitetura de sistemas.md",
     "C++/C++.md",
     "C++/Por que a programacao de baixo nivel existe?.md",
     "C++/Como funciona o pre processamento em C++.md",

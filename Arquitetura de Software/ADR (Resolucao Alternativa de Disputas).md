@@ -2,7 +2,7 @@ ___
 ADR (Architecture Decision Record) e uma pratica de arquitetura que registra decisoes importantes de forma leve, rastreavel e facil de revisar. A nota resume o que e uma ADR, para que serve e a estrutura tipica (titulo, status, decisao, contexto, opcoes e consequencias). O objetivo e tornar explicitos os trade-offs e facilitar manutencao: entender “por que escolhemos isso” quando o projeto evolui ou quando novas pessoas entram no time.
 ___
 
-Links: [[Arquitetura de Software]]; [[Index]]; [[O que e arquitetura de sistemas]];
+Links: [[Arquitetura de Software]]; [[Index]]; [[O que e arquitetura de sistemas]]; [[Atributos de Qualidade (NFRs) e Cenarios]];
 
 # Conteudo
 

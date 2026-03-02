@@ -2,7 +2,7 @@ ___
 Esta nota documenta os artefatos leves criados para busca e roteamento no vault. Eles existem para reduzir leitura desnecessaria e custo de tokens em tarefas futuras. Em vez de abrir varias notas longas de imediato, o fluxo comeca por arquivos pequenos de catalogo, relacoes e roteador. O resultado e triagem mais rapida, menor ruido de contexto e maior previsibilidade nas respostas do agente ao consultar a base de conhecimento.
 ___
 
-Links: [[Sistema de Conhecimento]]; [[Index]]; [[Context Engineering para o Vault]]; [[Pipeline de Conhecimento (Captura, Sintese e Reuso)]]; [[_Artefatos/PLAYBOOK]];
+Links: [[Sistema de Conhecimento]]; [[Index]]; [[Context Engineering para o Vault]]; [[Pipeline de Conhecimento (Captura, Sintese e Reuso)]]; [[PLAYBOOK]];
 
 # Conteudo
 

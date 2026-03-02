@@ -3,7 +3,7 @@ ___
 Esta nota define “arquitetura de sistemas” como a organizacao de componentes, responsabilidades e dependencias para atender requisitos sob restricoes (tempo, custo, confiabilidade, seguranca e evolucao). O objetivo e ter uma explicacao simples que sirva de base para outros topicos do modulo, como ADRs, padroes e processos de decisao. A arquitetura aparece tanto nas escolhas tecnicas quanto nos limites e invariantes impostos para manter o sistema coerente.
 ___
 
-Links: [[Arquitetura de Software]]; [[Index]]; [[ADR (Resolucao Alternativa de Disputas)]];
+Links: [[Arquitetura de Software]]; [[Index]]; [[Fundamentos de Arquitetura de Sistemas]]; [[ADR (Resolucao Alternativa de Disputas)]];
 
 # Conteudo
 
