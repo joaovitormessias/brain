@@ -1,3 +1,4 @@
+
 ___
 ATAM (Architecture Tradeoff Analysis Method) e um metodo para avaliar uma arquitetura a partir de atributos de qualidade e identificar riscos cedo. Esta nota descreve uma versao “leve” e aplicavel: capturar cenarios prioritarios, mapear escolhas arquiteturais que afetam esses cenarios e listar sensitivities, trade-offs e riscos. O objetivo e substituir discussoes subjetivas por um processo repetivel que gera resultados acionaveis e alimenta ADRs.
 ___

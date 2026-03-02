@@ -1,3 +1,4 @@
+
 ___
 Esta nota ensina a transformar requisitos nao-funcionais (NFRs) em cenarios de qualidade mensuraveis, que orientam decisao arquitetural e evitam debates abstratos. Em vez de “o sistema precisa ser escalavel”, voce escreve um cenario com carga, limite, resposta esperada e medida (ex.: p95, RTO/RPO, taxa de erro). O objetivo e criar um vocabulário comum para time, produto e operacao, e usar esses cenarios como base para ADRs e avaliacao de trade-offs.
 ___

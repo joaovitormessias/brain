@@ -1,3 +1,4 @@
+
 ___
 Esta nota consolida os fundamentos praticos de arquitetura de sistemas: o que precisa ser decidido, como transformar requisitos em decisao arquitetural e como reduzir risco tecnico cedo. O foco e pensar em arquitetura como trade-offs orientados por atributos de qualidade (confiabilidade, latencia, seguranca, custo e evolucao). Ela serve como “mapa” do modulo, conectando ADRs, cenarios de qualidade e tecnicas de avaliacao para que as escolhas fiquem explicitas e revisaveis ao longo do tempo.
 ___
